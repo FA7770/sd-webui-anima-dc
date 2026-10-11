@@ -1,0 +1,23 @@
+sd-webui-anima-dc
+Copyright 2026 FA770
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product includes software derived from the following projects:
+
+  * EfficientViT / DC-AE (https://github.com/mit-han-lab/efficientvit)
+    Copyright 2023 Han Cai. Licensed under the Apache License, Version 2.0.
+    lib_anima_dc/dcae.py is a modified port of the DC-AE encoder / decoder
+    (models/efficientvit/dc_ae.py, models/nn/ops.py, norm.py, act.py).
+    License text: licenses/efficientvit-LICENSE
+
+  * AutoencoderKL, branch "dc-ae" (https://github.com/lavinal712/AutoencoderKL)
+    Licensed under the MIT License. The DC-AE modules were obtained through
+    this repository and further modified (GSC shortcuts, per-stage norm / act).
+    License text: licenses/AutoencoderKL-LICENSE
+
+This software is an extension for Stable Diffusion WebUI Forge - Neo
+(https://github.com/Haoming02/sd-webui-forge-classic, branch neo, AGPL-3.0).
+It imports the WebUI at runtime and does not include WebUI source code.
+
+Model weights are not part of this software and are covered by their own licenses.
